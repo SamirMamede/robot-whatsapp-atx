@@ -4,11 +4,13 @@
   "description": "robot for initial service atx",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Samir Mamede",
   "license": "ISC",
   "dependencies": {
-    "@wppconnect-team/wppconnect": "^1.30.3"
+    "@wppconnect-team/wppconnect": "^1.30.3",
+    "express": "^4.19.2"
   }
 }
