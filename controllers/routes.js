@@ -2,10 +2,10 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Bot whatsApp ATX')
   })
 
-app.post('/qrcode', (req, res) => {
+app.get('/qrcode', (req, res) => {
 
 const fs = require('fs');
 const wppconnect = require('@wppconnect-team/wppconnect');
